@@ -9,15 +9,15 @@
 }
 
 .form__label {
-  font-family: Inter;
+  font-family: "Inter", Arial, sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
   color: #000;
 }
 
-input::placeholder {
-  font-family: Inter;
+.form__input::placeholder {
+  font-family: "Inter", Arial, sans-serif;
   font-size: 20px;
   line-height: 30px;
   color: #838383;
@@ -31,6 +31,8 @@ input::placeholder {
   margin: 8px 0 32px;
   border: 1px solid #838383;
   border-radius: 4px;
+  font-size: 20px;
+  line-height: 30px;
 }
 
 .form__button {
@@ -41,7 +43,7 @@ input::placeholder {
   margin-bottom: 32px;
   background-color: #1878dc;
   transition: background-color 0.5s;
-  font-family: Inter;
+  font-family: "Inter", Arial, sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
